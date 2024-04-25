@@ -1,0 +1,14 @@
+data_ingestion:
+  raw_data_path: data\new_data.xlsx
+
+data_preparation:
+  raw_data: Artifacts\raw_data.csv
+  pipeline_name: preparation_pipeline
+
+
+model_training:
+  cleaned_data_path: Artifacts\cleaned_data.csv
+  test_size: 0.3
+
+model_prediction:
+  test_data_path: Artifacts\test_data.csv
